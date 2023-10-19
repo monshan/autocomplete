@@ -1,12 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-
 import Autocomplete from './components/Autocomplete';
 
 function App() {
   return (
-    <div className="App flex justify-center items-center w-screen h-screen">
-      <Autocomplete />
+    <div className="grid xl:grid-cols-12 grid-cols-8 gap-2 w-screen h-screen">
+      <Autocomplete labelName="Country" />
     </div>
   );
 }
